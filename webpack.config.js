@@ -13,6 +13,7 @@ module.exports = {
 		new HtmlWebpackPlugin({
 			filename: "index.html",
 			scriptloading: "defer",
+			title: "Vocabulary",
 		}),
 	],
 	module: {
