@@ -1,0 +1,23 @@
+{
+	"name": "basic-template",
+	"version": "1.0.0",
+	"description": "A basic templace to act as a launching pad for future projects.  Uses npm and webpack to bundle everything together.",
+	"private": true,
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"build": "webpack"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"@eslint/js": "^9.5.0",
+		"css-loader": "^7.1.2",
+		"eslint": "^9.5.0",
+		"globals": "^15.6.0",
+		"html-webpack-plugin": "^5.6.0",
+		"style-loader": "^4.0.0",
+		"webpack": "^5.92.0",
+		"webpack-cli": "^5.1.4"
+	}
+}
